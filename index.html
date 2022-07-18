@@ -4,7 +4,111 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Price Table BEM SCSS</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.csss"
+        />
+        <link rel="stylesheet" href="./assests/css/style.css" />
     </head>
-    <body></body>
+    <body> 
+        <div class="container">
+            <div class="pricetable">
+                <div class="pricetable__img">
+                    <img src="./assests/img/ocean.png" alt="logo" />
+                    <span>Ocean</span>
+                </div>
+                <div class="pricetable__title">
+                    <div class="pricetable__title-header">
+                        <p>Subtitle goes here</p>
+                        <span>Subtitle second line goes here lorem ipsum</span>
+                    </div>
+                    <div class="pricetable__title-list">
+                        <ul>
+                            <li>Drop out ramen hustle</li>
+                            <li>Coworking viral landing</li>
+                            <li>Crush revenue traction</li>
+                            <li>User bases minium viable</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricetable__title-price">
+                        <p>$399</p>
+                        <span>Per tour</span>
+                    </div>
+                </div>
+                <div class="pricetable__btn pricetable__btn--ocean">
+                    <button type="">Buy Tour</button>
+                </div>
+            </div>
+            <div class="pricetable">
+                <div class="pricetable__img">
+                    <img src="./assests/img/mountain.png" alt="logo" />
+                    <span>Mountains</span>
+                    <p>The best price/quantity plan *</p>
+                </div>
+                <div class="pricetable__title">
+                    <div class="pricetable__title-header">
+                        <p>Subtitle goes here</p>
+                        <span>Subtitle second line goes here lorem ipsum</span>
+                    </div>
+                    <div class="pricetable__title-list">
+                        <ul>
+                            <li>Drop out ramen hustle</li>
+                            <li>Coworking viral landing</li>
+                            <li>Crush revenue traction</li>
+                            <li>User bases minium viable</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="pricetable__title-price pricetable__title-price--mountain"
+                    >
+                        <p>$449</p>
+                        <span>Per tour</span>
+                    </div>
+                    <div class="pricetable__title-mark">
+                        <img src="./assests/img/newmark.png" alt="logo" />
+                        <span>New</span>
+                    </div>
+                </div>
+                <div class="pricetable__btn pricetable__btn--mountain">
+                    <button type="">Buy Tour</button>
+                </div>
+            </div>
+            <div class="pricetable">
+                <div class="pricetable__img">
+                    <img src="./assests/img/forest.png" alt="logo" />
+                    <span>forest</span>
+                </div>
+                <div class="pricetable__title">
+                    <div class="pricetable__title-header">
+                        <p>Subtitle goes here</p>
+                        <span>Subtitle second line goes here lorem ipsum</span>
+                    </div>
+                    <div class="pricetable__title-list">
+                        <ul>
+                            <li>Drop out ramen hustle</li>
+                            <li>Coworking viral landing</li>
+                            <li>Crush revenue traction</li>
+                            <li>User bases minium viable</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="pricetable__title-price pricetable__title-price--forest"
+                    >
+                        <p>$599</p>
+                        <span>Per tour</span>
+                    </div>
+                </div>
+                <div class="pricetable__btn pricetable__btn--forest">
+                    <button type="">Buy Tour</button>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
