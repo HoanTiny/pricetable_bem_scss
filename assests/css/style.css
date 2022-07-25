@@ -46,8 +46,8 @@ img {
 }
 .pricetable__img {
   position: relative;
-  height: 272px;
   width: 100%;
+  aspect-ratio: 16/9;
 }
 .pricetable__img span {
   position: absolute;

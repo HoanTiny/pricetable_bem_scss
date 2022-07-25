@@ -44,9 +44,8 @@ img {
 
     &__img {
         position: relative;
-        height: 272px;
         width: 100%;
-
+        aspect-ratio: 16/9;
         span {
             position: absolute;
             top: 50%;
